@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/betadesk/static/css/main.f2f20fe4.chunk.css",
+    "main.js": "/betadesk/static/js/main.78188b1e.chunk.js",
+    "main.js.map": "/betadesk/static/js/main.78188b1e.chunk.js.map",
+    "runtime-main.js": "/betadesk/static/js/runtime-main.abaa4f76.js",
+    "runtime-main.js.map": "/betadesk/static/js/runtime-main.abaa4f76.js.map",
+    "static/js/2.d2bc1717.chunk.js": "/betadesk/static/js/2.d2bc1717.chunk.js",
+    "static/js/2.d2bc1717.chunk.js.map": "/betadesk/static/js/2.d2bc1717.chunk.js.map",
+    "index.html": "/betadesk/index.html",
+    "precache-manifest.598432cb049c8d8b22b38d04ec3d5039.js": "/betadesk/precache-manifest.598432cb049c8d8b22b38d04ec3d5039.js",
+    "service-worker.js": "/betadesk/service-worker.js",
+    "static/css/main.f2f20fe4.chunk.css.map": "/betadesk/static/css/main.f2f20fe4.chunk.css.map",
+    "static/js/2.d2bc1717.chunk.js.LICENSE.txt": "/betadesk/static/js/2.d2bc1717.chunk.js.LICENSE.txt",
+    "static/media/login.css": "/betadesk/static/media/background.540cc743.png",
+    "static/media/logo-small.png": "/betadesk/static/media/logo-small.6ba09fbc.png",
+    "static/media/logo.png": "/betadesk/static/media/logo.3a28f09b.png",
+    "static/media/overview.css": "/betadesk/static/media/overview.4ce91f61.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.abaa4f76.js",
+    "static/js/2.d2bc1717.chunk.js",
+    "static/css/main.f2f20fe4.chunk.css",
+    "static/js/main.78188b1e.chunk.js"
+  ]
+}
