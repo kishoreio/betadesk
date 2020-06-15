@@ -1,0 +1,8 @@
+.viewport-container {
+  position: absolute;
+  top: 4rem;
+  left: 4rem;
+  height: calc(100% - 4rem);
+  width: calc(100% - 4rem);
+  background: #cfd7df7e;
+}

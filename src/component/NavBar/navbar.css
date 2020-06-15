@@ -1,0 +1,29 @@
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  left: 4rem;
+  background: transparent;
+  width: calc(100% - 4rem);
+  height: 4rem;
+}
+
+.nav-container h1 {
+  margin-left: 0.5rem;
+  color: #183247;
+}
+
+.nav-container-logout {
+  display: flex;
+  align-items: center;
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+
+.logout-btn {
+  padding-left: 0.2rem;
+  color: #183247;
+  font-weight: 400;
+  font-size: 0.9rem;
+}

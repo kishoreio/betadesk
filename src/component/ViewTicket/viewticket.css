@@ -1,0 +1,243 @@
+/* View Ticket CSS */
+.view_ticket-container {
+  display: flex;
+  height: 100%;
+}
+
+.view_ticket-content {
+  margin: 1rem 0 0 1rem;
+  width: 65%;
+  background: #fff;
+  padding: 0 2rem 0;
+  overflow: scroll;
+}
+
+.view_ticket-main {
+  display: flex;
+  align-items: center;
+}
+
+.view_ticket-subject {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding-top: 1rem;
+}
+
+.view_ticket-subject p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding-left: 0.5rem;
+  color: #183247;
+}
+
+.view_ticket-status {
+  display: flex;
+  align-items: center;
+}
+
+.view_ticket-status div {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+}
+
+.view_ticket-status p {
+  padding-left: 0.5rem;
+  font-weight: 300;
+  font-size: 0.9rem;
+  color: #183247;
+}
+
+.view_ticket-delete {
+  display: block;
+}
+
+.view_ticket-assign {
+  display: flex;
+  justify-content: space-evenly;
+  width: 75%;
+  padding-bottom: 1rem;
+}
+
+.view_ticket-assign p {
+  font-size: 0.8rem;
+  font-weight: 300;
+  color: #183247;
+}
+
+.view_ticket-box {
+  border: 1px solid #70b2f3;
+  background-color: #bbdcfe;
+  min-height: 40%;
+}
+
+.view_ticket-box {
+  color: #183247;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+.view_ticket-line {
+  border: 1px solid #70b2f3;
+}
+
+.view_ticket-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background: rgb(150, 211, 58);
+  height: 50px;
+  width: 50px;
+  opacity: 0.7;
+}
+
+.view_ticket-box1 {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+.view_ticket-box1 p {
+  padding-left: 0.5rem;
+  color: #183247;
+}
+
+.view_ticket-box2 {
+  padding: 1rem;
+  max-height: 10rem;
+}
+
+/* Discussions Css */
+.discussion-container {
+  margin-top: 1rem;
+  background-color: #88d1b693;
+  border: 1px solid #02b875;
+}
+
+.discussion-container hr {
+  border: 1px solid #02b875;
+}
+
+.discussion-title {
+  display: flex;
+  align-items: center;
+}
+
+.discussion-title:first-child {
+  padding: 0.5rem;
+}
+
+.discussion-title h1 {
+  padding: 0.5rem;
+  font-weight: 400;
+}
+
+.discussion-message {
+  max-height: 10rem;
+  padding-left: 0.5rem;
+  overflow: scroll;
+}
+
+.discussion-person {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 0;
+}
+
+.discussion-details p {
+  font-size: 0.9rem;
+  font-weight: 300;
+  padding-left: 0.5rem;
+  color: #183247;
+}
+
+.discussion-user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(150, 211, 58);
+  color: white;
+  height: 40px;
+  width: 40px;
+  opacity: 0.7;
+}
+
+.discussion-addnote {
+  display: flex;
+}
+
+.discussion-addnote textarea {
+  flex-grow: 1;
+  text-indent: 0.5rem;
+  outline: none;
+}
+
+.discussion-btn {
+  background-color: #264966;
+  color: white;
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+/* Update Container */
+.update_container {
+  display: flex;
+  width: 35%;
+  margin-top: 1rem;
+  height: calc(100% - 1rem);
+}
+
+.update_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 90%;
+  background-color: #fff;
+}
+
+.view_ticket-delete {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 4rem;
+  margin-left: -4.5rem;
+}
+
+.view_ticket-delete svg {
+  position: absolute;
+}
+
+.view_ticket-delete p {
+  font-weight: 400;
+  font-size: 0.7rem;
+}
+
+.view_ticket-btn {
+  border: 2px solid red;
+  background: rgb(245, 84, 84);
+  padding: 0.2rem 1rem;
+  color: #fff;
+}
+
+.update_title {
+  display: flex;
+  align-items: center;
+}
+
+.update_title h1 {
+  font-size: 1.2rem;
+  color: #183247;
+  font-weight: 400;
+  margin-left: 0.5rem;
+}
+
+.update-btn {
+  background-color: #264966;
+  color: #fff;
+  margin-top: 1rem;
+  padding: 1rem 8.5rem;
+}

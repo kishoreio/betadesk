@@ -1,0 +1,43 @@
+.side_panel-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #12344d;
+  width: 4rem;
+}
+
+.side_panel-icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 20rem;
+}
+
+.side_panel-logo {
+  width: 4rem;
+  height: 4rem;
+  background: #02b875;
+}
+
+.side_panel-icon {
+  display: flex;
+}
+
+.side_panel-icon p {
+  display: none;
+}
+
+.side_panel-icon:hover p {
+  display: inline;
+  position: absolute;
+  z-index: 3;
+  left: 4rem;
+  background: #383838;
+  color: white;
+  font-size: 0.8rem;
+  padding: 0.5rem;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 5px;
+}

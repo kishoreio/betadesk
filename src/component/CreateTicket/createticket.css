@@ -1,0 +1,38 @@
+.create_ticket-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.create_ticket-field {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 4rem);
+  padding: 0.4rem 0;
+}
+
+.create_ticket-field label {
+  font-size: 0.8rem;
+  padding-bottom: 0.1rem;
+}
+
+.ticket-field {
+  border: 1px solid #38383869;
+  padding: 0.5rem 0;
+  border-radius: 5px;
+  transition: border 100ms linear;
+  text-indent: 5px;
+}
+
+.ticket-field:focus {
+  border: 1px solid #02b875;
+}
+
+.ticket-btn {
+  background: #264966;
+  color: white;
+  padding: 1rem 0;
+  font-size: 1rem;
+  font-weight: 300;
+}

@@ -1,0 +1,165 @@
+.ticket_list-container {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.ticket_list-width {
+  width: 70%;
+}
+
+.ticket_list-content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  overflow: scroll;
+}
+
+.ticket_list-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background: white;
+  box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.05);
+  padding: 1rem 0;
+  margin: 0.5rem 0 0 0.5rem;
+  border-left: 4px solid rgb(150, 211, 58);
+  border-radius: 3px;
+}
+
+.ticket_list-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background: rgb(150, 211, 58);
+  height: 50px;
+  width: 50px;
+  opacity: 0.7;
+}
+
+.ticket_list-line {
+  height: 4rem;
+  border: 1px solid;
+}
+
+.ticket_list-detail {
+  display: flex;
+  flex-direction: column;
+  min-width: 55%;
+}
+
+.ticket_list-from {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  flex-shrink: 1;
+}
+
+.ticket_list-from p,
+.ticket_list-from span {
+  font-size: 0.9rem;
+  padding-left: 0.5rem;
+  color: #6f7c87;
+}
+
+.ticket_list-group {
+  display: flex;
+  align-items: center;
+}
+
+.ticket_list-group p {
+  padding-left: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 300;
+  color: #183247;
+}
+
+.ticket_list-click {
+  font-size: 0.7rem;
+  margin-left: 0.2rem;
+}
+
+.ticket_list-date {
+  font-size: 0.8rem !important;
+  color: #1e2523 !important;
+  font-weight: 200;
+}
+
+.ticket_list-status {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0.1rem 0;
+}
+
+.ticket_list-status p {
+  padding-left: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #183247;
+}
+
+.ticket_list-a a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: #183247;
+  word-break: break-all;
+  transition: color 100ms linear;
+}
+
+.ticket_list-a a:hover {
+  color: #02b875;
+}
+
+.ticket_list-priority {
+  background: red;
+  height: 16px;
+  width: 16px;
+  border-radius: 2px;
+  transform: scale(0.6);
+}
+
+.ticket_list-filter {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: calc(100% - 26%);
+  top: 5rem;
+  width: 25%;
+}
+
+.ticket_list-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ticket_list_title {
+  display: flex;
+  align-items: center;
+}
+
+.ticket_list_title h1 {
+  font-weight: 400;
+  margin-left: 0.5rem;
+  color: #183247;
+}
+
+.ticket_list-btn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filter-btn {
+  background-color: #264966;
+  color: #fff;
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+}
+
+.filter-btn:last-child {
+  margin-left: 0.5rem;
+}
